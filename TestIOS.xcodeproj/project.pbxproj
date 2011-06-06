@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94CF819F139D389F001CC136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF819E139D389F001CC136 /* UIKit.framework */; };
+		94CF81A1139D389F001CC136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF81A0139D389F001CC136 /* Foundation.framework */; };
+		94CF81A3139D389F001CC136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF81A2139D389F001CC136 /* CoreGraphics.framework */; };
+		94CF81A5139D389F001CC136 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF81A4139D389F001CC136 /* CoreData.framework */; };
+		94CF81AB139D389F001CC136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94CF81A9139D389F001CC136 /* InfoPlist.strings */; };
+		94CF81AE139D389F001CC136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CF81AD139D389F001CC136 /* main.m */; };
+		94CF81B1139D389F001CC136 /* TestIOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CF81B0139D389F001CC136 /* TestIOSAppDelegate.m */; };
+		94CF81B4139D389F001CC136 /* TestIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94CF81B2139D389F001CC136 /* TestIOS.xcdatamodeld */; };
+		94CF81B8139D38A0001CC136 /* TestIOSAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CF81B7139D38A0001CC136 /* TestIOSAppDelegate_iPhone.m */; };
+		94CF81BB139D38A0001CC136 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94CF81B9139D38A0001CC136 /* MainWindow_iPhone.xib */; };
+		94CF81BF139D38A0001CC136 /* TestIOSAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CF81BE139D38A0001CC136 /* TestIOSAppDelegate_iPad.m */; };
+		94CF81C2139D38A0001CC136 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94CF81C0139D38A0001CC136 /* MainWindow_iPad.xib */; };
+		94CF81C9139D38A0001CC136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF819E139D389F001CC136 /* UIKit.framework */; };
+		94CF81CA139D38A0001CC136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF81A0139D389F001CC136 /* Foundation.framework */; };
+		94CF81CB139D38A0001CC136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF81A2139D389F001CC136 /* CoreGraphics.framework */; };
+		94CF81CC139D38A0001CC136 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF81A4139D389F001CC136 /* CoreData.framework */; };
+		94CF81D4139D38A0001CC136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94CF81D2139D38A0001CC136 /* InfoPlist.strings */; };
+		94CF81D7139D38A0001CC136 /* TestIOSTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 94CF81D6139D38A0001CC136 /* TestIOSTests.h */; };
+		94CF81D9139D38A0001CC136 /* TestIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CF81D8139D38A0001CC136 /* TestIOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94CF81CD139D38A0001CC136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94CF8191139D389F001CC136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94CF8199139D389F001CC136;
+			remoteInfo = TestIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94CF819A139D389F001CC136 /* TestIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CF819E139D389F001CC136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94CF81A0139D389F001CC136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94CF81A2139D389F001CC136 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94CF81A4139D389F001CC136 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		94CF81A8139D389F001CC136 /* TestIOS-Info.plist */ = {isa = PBXFileReference; path = "TestIOS-Info.plist"; sourceTree = "<group>"; };
+		94CF81AA139D389F001CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94CF81AC139D389F001CC136 /* TestIOS-Prefix.pch */ = {isa = PBXFileReference; path = "TestIOS-Prefix.pch"; sourceTree = "<group>"; };
+		94CF81AD139D389F001CC136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94CF81AF139D389F001CC136 /* TestIOSAppDelegate.h */ = {isa = PBXFileReference; path = TestIOSAppDelegate.h; sourceTree = "<group>"; };
+		94CF81B0139D389F001CC136 /* TestIOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIOSAppDelegate.m; sourceTree = "<group>"; };
+		94CF81B3139D389F001CC136 /* TestIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestIOS.xcdatamodel; sourceTree = "<group>"; };
+		94CF81B6139D389F001CC136 /* TestIOSAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = TestIOSAppDelegate_iPhone.h; path = iPhone/TestIOSAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		94CF81B7139D38A0001CC136 /* TestIOSAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestIOSAppDelegate_iPhone.m; path = iPhone/TestIOSAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		94CF81BA139D38A0001CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		94CF81BD139D38A0001CC136 /* TestIOSAppDelegate_iPad.h */ = {isa = PBXFileReference; name = TestIOSAppDelegate_iPad.h; path = iPad/TestIOSAppDelegate_iPad.h; sourceTree = "<group>"; };
+		94CF81BE139D38A0001CC136 /* TestIOSAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestIOSAppDelegate_iPad.m; path = iPad/TestIOSAppDelegate_iPad.m; sourceTree = "<group>"; };
+		94CF81C1139D38A0001CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		94CF81C8139D38A0001CC136 /* TestIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CF81D1139D38A0001CC136 /* TestIOSTests-Info.plist */ = {isa = PBXFileReference; path = "TestIOSTests-Info.plist"; sourceTree = "<group>"; };
+		94CF81D3139D38A0001CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94CF81D5139D38A0001CC136 /* TestIOSTests-Prefix.pch */ = {isa = PBXFileReference; path = "TestIOSTests-Prefix.pch"; sourceTree = "<group>"; };
+		94CF81D6139D38A0001CC136 /* TestIOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestIOSTests.h; sourceTree = "<group>"; };
+		94CF81D8139D38A0001CC136 /* TestIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94CF8197139D389F001CC136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CF819F139D389F001CC136 /* UIKit.framework in Frameworks */,
+				94CF81A1139D389F001CC136 /* Foundation.framework in Frameworks */,
+				94CF81A3139D389F001CC136 /* CoreGraphics.framework in Frameworks */,
+				94CF81A5139D389F001CC136 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CF81C4139D38A0001CC136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CF81C9139D38A0001CC136 /* UIKit.framework in Frameworks */,
+				94CF81CA139D38A0001CC136 /* Foundation.framework in Frameworks */,
+				94CF81CB139D38A0001CC136 /* CoreGraphics.framework in Frameworks */,
+				94CF81CC139D38A0001CC136 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94CF818F139D389F001CC136 = {
+			isa = PBXGroup;
+			children = (
+				94CF81A6139D389F001CC136 /* TestIOS */,
+				94CF81CF139D38A0001CC136 /* TestIOSTests */,
+				94CF819D139D389F001CC136 /* Frameworks */,
+				94CF819B139D389F001CC136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94CF819B139D389F001CC136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94CF819A139D389F001CC136 /* TestIOS.app */,
+				94CF81C8139D38A0001CC136 /* TestIOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94CF819D139D389F001CC136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94CF819E139D389F001CC136 /* UIKit.framework */,
+				94CF81A0139D389F001CC136 /* Foundation.framework */,
+				94CF81A2139D389F001CC136 /* CoreGraphics.framework */,
+				94CF81A4139D389F001CC136 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94CF81A6139D389F001CC136 /* TestIOS */ = {
+			isa = PBXGroup;
+			children = (
+				94CF81AF139D389F001CC136 /* TestIOSAppDelegate.h */,
+				94CF81B0139D389F001CC136 /* TestIOSAppDelegate.m */,
+				94CF81B2139D389F001CC136 /* TestIOS.xcdatamodeld */,
+				94CF81B5139D389F001CC136 /* iPhone */,
+				94CF81BC139D38A0001CC136 /* iPad */,
+				94CF81A7139D389F001CC136 /* Supporting Files */,
+			);
+			path = TestIOS;
+			sourceTree = "<group>";
+		};
+		94CF81A7139D389F001CC136 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94CF81A8139D389F001CC136 /* TestIOS-Info.plist */,
+				94CF81A9139D389F001CC136 /* InfoPlist.strings */,
+				94CF81AC139D389F001CC136 /* TestIOS-Prefix.pch */,
+				94CF81AD139D389F001CC136 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94CF81B5139D389F001CC136 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				94CF81B6139D389F001CC136 /* TestIOSAppDelegate_iPhone.h */,
+				94CF81B7139D38A0001CC136 /* TestIOSAppDelegate_iPhone.m */,
+				94CF81B9139D38A0001CC136 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		94CF81BC139D38A0001CC136 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				94CF81BD139D38A0001CC136 /* TestIOSAppDelegate_iPad.h */,
+				94CF81BE139D38A0001CC136 /* TestIOSAppDelegate_iPad.m */,
+				94CF81C0139D38A0001CC136 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		94CF81CF139D38A0001CC136 /* TestIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				94CF81D6139D38A0001CC136 /* TestIOSTests.h */,
+				94CF81D8139D38A0001CC136 /* TestIOSTests.m */,
+				94CF81D0139D38A0001CC136 /* Supporting Files */,
+			);
+			path = TestIOSTests;
+			sourceTree = "<group>";
+		};
+		94CF81D0139D38A0001CC136 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94CF81D1139D38A0001CC136 /* TestIOSTests-Info.plist */,
+				94CF81D2139D38A0001CC136 /* InfoPlist.strings */,
+				94CF81D5139D38A0001CC136 /* TestIOSTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94CF8199139D389F001CC136 /* TestIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CF81DC139D38A0001CC136 /* Build configuration list for PBXNativeTarget "TestIOS" */;
+			buildPhases = (
+				94CF8196139D389F001CC136 /* Sources */,
+				94CF8197139D389F001CC136 /* Frameworks */,
+				94CF8198139D389F001CC136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestIOS;
+			productName = TestIOS;
+			productReference = 94CF819A139D389F001CC136 /* TestIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94CF81C7139D38A0001CC136 /* TestIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CF81DF139D38A0001CC136 /* Build configuration list for PBXNativeTarget "TestIOSTests" */;
+			buildPhases = (
+				94CF81C3139D38A0001CC136 /* Sources */,
+				94CF81C4139D38A0001CC136 /* Frameworks */,
+				94CF81C5139D38A0001CC136 /* Resources */,
+				94CF81C6139D38A0001CC136 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94CF81CE139D38A0001CC136 /* PBXTargetDependency */,
+			);
+			name = TestIOSTests;
+			productName = TestIOSTests;
+			productReference = 94CF81C8139D38A0001CC136 /* TestIOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94CF8191139D389F001CC136 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 94CF8194139D389F001CC136 /* Build configuration list for PBXProject "TestIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94CF818F139D389F001CC136;
+			productRefGroup = 94CF819B139D389F001CC136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94CF8199139D389F001CC136 /* TestIOS */,
+				94CF81C7139D38A0001CC136 /* TestIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94CF8198139D389F001CC136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CF81AB139D389F001CC136 /* InfoPlist.strings in Resources */,
+				94CF81BB139D38A0001CC136 /* MainWindow_iPhone.xib in Resources */,
+				94CF81C2139D38A0001CC136 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CF81C5139D38A0001CC136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CF81D4139D38A0001CC136 /* InfoPlist.strings in Resources */,
+				94CF81D7139D38A0001CC136 /* TestIOSTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94CF81C6139D38A0001CC136 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94CF8196139D389F001CC136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CF81AE139D389F001CC136 /* main.m in Sources */,
+				94CF81B1139D389F001CC136 /* TestIOSAppDelegate.m in Sources */,
+				94CF81B4139D389F001CC136 /* TestIOS.xcdatamodeld in Sources */,
+				94CF81B8139D38A0001CC136 /* TestIOSAppDelegate_iPhone.m in Sources */,
+				94CF81BF139D38A0001CC136 /* TestIOSAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CF81C3139D38A0001CC136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CF81D9139D38A0001CC136 /* TestIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94CF81CE139D38A0001CC136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94CF8199139D389F001CC136 /* TestIOS */;
+			targetProxy = 94CF81CD139D38A0001CC136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94CF81A9139D389F001CC136 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94CF81AA139D389F001CC136 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94CF81B9139D38A0001CC136 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94CF81BA139D38A0001CC136 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		94CF81C0139D38A0001CC136 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94CF81C1139D38A0001CC136 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		94CF81D2139D38A0001CC136 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94CF81D3139D38A0001CC136 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94CF81DA139D38A0001CC136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94CF81DB139D38A0001CC136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94CF81DD139D38A0001CC136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestIOS/TestIOS-Prefix.pch";
+				INFOPLIST_FILE = "TestIOS/TestIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94CF81DE139D38A0001CC136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestIOS/TestIOS-Prefix.pch";
+				INFOPLIST_FILE = "TestIOS/TestIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94CF81E0139D38A0001CC136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestIOS.app/TestIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestIOSTests/TestIOSTests-Prefix.pch";
+				INFOPLIST_FILE = "TestIOSTests/TestIOSTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		94CF81E1139D38A0001CC136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestIOS.app/TestIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestIOSTests/TestIOSTests-Prefix.pch";
+				INFOPLIST_FILE = "TestIOSTests/TestIOSTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94CF8194139D389F001CC136 /* Build configuration list for PBXProject "TestIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CF81DA139D38A0001CC136 /* Debug */,
+				94CF81DB139D38A0001CC136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CF81DC139D38A0001CC136 /* Build configuration list for PBXNativeTarget "TestIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CF81DD139D38A0001CC136 /* Debug */,
+				94CF81DE139D38A0001CC136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94CF81DF139D38A0001CC136 /* Build configuration list for PBXNativeTarget "TestIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CF81E0139D38A0001CC136 /* Debug */,
+				94CF81E1139D38A0001CC136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94CF81B2139D389F001CC136 /* TestIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94CF81B3139D389F001CC136 /* TestIOS.xcdatamodel */,
+			);
+			currentVersion = 94CF81B3139D389F001CC136 /* TestIOS.xcdatamodel */;
+			path = TestIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94CF8191139D389F001CC136 /* Project object */;
+}
